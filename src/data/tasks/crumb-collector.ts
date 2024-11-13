@@ -22,4 +22,5 @@ export const CrumbCollector: task = {
     ],
     vendor: LabRat,
     level: 0,
+    cancelTaskId: 'T-KQWNOV'
 }

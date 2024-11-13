@@ -27,5 +27,6 @@ export const WhatWasLeft: task = {
   level: 0,
   key: [
     BLStrg
-  ]
+  ],
+  cancelTaskId: 'T-SNU8VR'
 }

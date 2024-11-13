@@ -22,4 +22,5 @@ export const BuyerOfUntoldTruths: task = {
     ],
     vendor: Turncoat,
     level: 0,
+    cancelTaskId: 'T-QWL41H'
 }

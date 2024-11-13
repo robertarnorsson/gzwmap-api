@@ -22,4 +22,5 @@ export const TheCongressman: task = {
     ],
     vendor: Handshake,
     level: 0,
+    cancelTaskId: 'T-J4JCA2'
 }

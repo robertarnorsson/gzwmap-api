@@ -26,4 +26,5 @@ export const LocalGolfStar: task = {
     ],
     vendor: Turncoat,
     level: 0,
+    cancelTaskId: 'T-AEK87J'
 }

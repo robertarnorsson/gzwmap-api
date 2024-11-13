@@ -26,4 +26,5 @@ export const PricelessPossessions: task = {
     ],
     vendor: Handshake,
     level: 0,
+    cancelTaskId: 'T-9C1JC2'
 }

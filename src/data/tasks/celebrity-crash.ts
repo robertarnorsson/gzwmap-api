@@ -22,4 +22,5 @@ export const CelebrityCrash: task = {
     ],
     vendor: Handshake,
     level: 0,
+    cancelTaskId: 'T-2JLQ7Q'
 }

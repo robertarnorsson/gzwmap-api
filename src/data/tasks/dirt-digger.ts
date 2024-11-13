@@ -22,4 +22,5 @@ export const DirtDigger: task = {
     ],
     vendor: Banshee,
     level: 0,
+    cancelTaskId: 'T-WN4NFD'
 }

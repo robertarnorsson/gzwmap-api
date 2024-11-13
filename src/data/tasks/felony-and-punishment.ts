@@ -22,4 +22,5 @@ export const FelonyAndPunishment: task = {
     ],
     vendor: Banshee,
     level: 0,
+    cancelTaskId: 'T-DM8PG5'
 }

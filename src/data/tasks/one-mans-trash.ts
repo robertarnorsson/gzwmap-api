@@ -26,5 +26,6 @@ export const OneMansTrash: task = {
     level: 0,
     key: [
       BLStrg
-    ]
+    ],
+    cancelTaskId: 'T-Z8DSWJ'
 }
