@@ -7,10 +7,20 @@ import { Keys } from './data/keys'
 import { Items } from './data/items'
 import { cache } from 'hono/cache'
 import { favicon } from './icon'
+import { cors } from 'hono/cors'
 
 export type Env = {}
 
 const app = new Hono<{ Bindings: Env }>()
+
+app.use(
+  '*',
+  cors({
+    origin: ['http://gzwmap.com', 'https://new.gzwmap.com', 'http://localhost:5173'],
+    allowMethods: ['GET', 'OPTIONS'],
+    allowHeaders: ['Content-Type']
+  })
+)
 
 app.get(
   '*',
