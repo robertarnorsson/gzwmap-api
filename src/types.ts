@@ -13,7 +13,6 @@ export type faction = Marker & {
   description: string;
   image: string;
   types: MarkerType[];
-  locationId: string;
 };
 
 export type lz = Marker & {
@@ -60,6 +59,7 @@ export type key = item & {
   questKey: boolean;
   location: location;
   position: [number, number] | [number, number][];
+  faction?: faction;
 };
 
 export type task = BaseMarker & {

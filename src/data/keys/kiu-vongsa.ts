@@ -1,4 +1,5 @@
 import { key, KeyTypes, MarkerType } from "../../types"
+import { CrimsonShieldInternational } from "../factions"
 import { KiuVongsa } from "../locations"
 
 export const KVDoctorsOffice: key = {
@@ -11,7 +12,8 @@ export const KVDoctorsOffice: key = {
   types: [MarkerType.KEY, MarkerType.KIUVONGSA, MarkerType.QUESTKEY],
   questKey: true,
   location: KiuVongsa,
-  position: [10754.267925879132, 21539.991016960234]
+  position: [10754.267925879132, 21539.991016960234],
+  faction: CrimsonShieldInternational
 }
 
 export const KVAttic: key = {
@@ -24,7 +26,8 @@ export const KVAttic: key = {
   types: [MarkerType.KEY, MarkerType.KIUVONGSA, MarkerType.QUESTKEY],
   questKey: true,
   location: KiuVongsa,
-  position: [10658.773970571741, 21258.267538297983]
+  position: [10658.773970571741, 21258.267538297983],
+  faction: CrimsonShieldInternational
 }
 
 export const KVMotel: key = {
@@ -37,7 +40,8 @@ export const KVMotel: key = {
   types: [MarkerType.KEY, MarkerType.KIUVONGSA],
   questKey: false,
   location: KiuVongsa,
-  position: [10577.773970571741, 21315.267538297983]
+  position: [10577.773970571741, 21315.267538297983],
+  faction: CrimsonShieldInternational
 }
 
 export const KVLumber: key = {
@@ -50,7 +54,8 @@ export const KVLumber: key = {
   types: [MarkerType.KEY, MarkerType.KIUVONGSA],
   questKey: false,
   location: KiuVongsa,
-  position: [10722.207849909322, 20590.45838811121]
+  position: [10722.207849909322, 20590.45838811121],
+  faction: CrimsonShieldInternational
 }
 
 export const KVUNLRA: key = {
@@ -63,7 +68,8 @@ export const KVUNLRA: key = {
   types: [MarkerType.KEY, MarkerType.KIUVONGSA],
   questKey: false,
   location: KiuVongsa,
-  position: [10549.297447200293, 20714.896804213342]
+  position: [10549.297447200293, 20714.896804213342],
+  faction: CrimsonShieldInternational
 }
 
 export const KVMarOfc: key = {
@@ -76,7 +82,8 @@ export const KVMarOfc: key = {
   types: [MarkerType.KEY, MarkerType.KIUVONGSA],
   questKey: false,
   location: KiuVongsa,
-  position: [10822.441298295296, 20761.22714849532]
+  position: [10822.441298295296, 20761.22714849532],
+  faction: CrimsonShieldInternational
 }
 
 export const KVMarStr: key = {
@@ -89,5 +96,6 @@ export const KVMarStr: key = {
   types: [MarkerType.KEY, MarkerType.KIUVONGSA],
   questKey: false,
   location: KiuVongsa,
-  position: [10809.4430742678, 20755.55498997356]
+  position: [10809.4430742678, 20755.55498997356],
+  faction: CrimsonShieldInternational
 }

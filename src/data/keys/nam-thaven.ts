@@ -1,4 +1,5 @@
 import { key, KeyTypes, MarkerType } from "../../types"
+import { MithrasSecuritySystems } from "../factions"
 import { NamThaven } from "../locations"
 
 export const NTDoctorsOffice: key = {
@@ -11,7 +12,8 @@ export const NTDoctorsOffice: key = {
   types: [MarkerType.KEY, MarkerType.NAMTHAVEN, MarkerType.QUESTKEY],
   questKey: true,
   location: NamThaven,
-  position: [16065.50882633552, 11951.633912191932]
+  position: [16065.50882633552, 11951.633912191932],
+  faction: MithrasSecuritySystems
 }
 
 export const NTAttic: key = {
@@ -24,7 +26,8 @@ export const NTAttic: key = {
   types: [MarkerType.KEY, MarkerType.NAMTHAVEN, MarkerType.QUESTKEY],
   questKey: true,
   location: NamThaven,
-  position: [16313.505701775528, 12090.861535369435]
+  position: [16313.505701775528, 12090.861535369435],
+  faction: MithrasSecuritySystems
 }
 
 export const NTMotel: key = {
@@ -37,7 +40,8 @@ export const NTMotel: key = {
   types: [MarkerType.KEY, MarkerType.NAMTHAVEN],
   questKey: false,
   location: NamThaven,
-  position: [16336.663947056411, 12003.923957741516]
+  position: [16336.663947056411, 12003.923957741516],
+  faction: MithrasSecuritySystems
 }
 
 export const NTLumber: key = {
@@ -50,7 +54,8 @@ export const NTLumber: key = {
   types: [MarkerType.KEY, MarkerType.NAMTHAVEN],
   questKey: false,
   location: NamThaven,
-  position: [16692.42225467822, 12656.073327420738]
+  position: [16692.42225467822, 12656.073327420738],
+  faction: MithrasSecuritySystems
 }
 
 export const NTUNLRA: key = {
@@ -63,7 +68,8 @@ export const NTUNLRA: key = {
   types: [MarkerType.KEY, MarkerType.NAMTHAVEN],
   questKey: false,
   location: NamThaven,
-  position: [16746.86205830489, 12441.711765655544]
+  position: [16746.86205830489, 12441.711765655544],
+  faction: MithrasSecuritySystems
 }
 
 export const NTMarOfc: key = {
@@ -76,7 +82,8 @@ export const NTMarOfc: key = {
   types: [MarkerType.KEY, MarkerType.NAMTHAVEN],
   questKey: false,
   location: NamThaven,
-  position: [16504.980087429096, 12581.50519073759]
+  position: [16504.980087429096, 12581.50519073759],
+  faction: MithrasSecuritySystems
 }
 
 export const NTMarStr: key = {
@@ -89,5 +96,6 @@ export const NTMarStr: key = {
   types: [MarkerType.KEY, MarkerType.NAMTHAVEN],
   questKey: false,
   location: NamThaven,
-  position: [16522.041995672604, 12577.938308724099]
+  position: [16522.041995672604, 12577.938308724099],
+  faction: MithrasSecuritySystems
 }

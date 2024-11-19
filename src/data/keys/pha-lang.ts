@@ -1,4 +1,5 @@
 import { key, KeyTypes, MarkerType } from "../../types"
+import { LamangRecoveryInitiative } from "../factions"
 import { PhaLang } from "../locations"
 
 export const PLDoctorsOffice: key = {
@@ -11,7 +12,8 @@ export const PLDoctorsOffice: key = {
   types: [MarkerType.KEY, MarkerType.PHALANG, MarkerType.QUESTKEY],
   questKey: true,
   location: PhaLang,
-  position: [22932.111258241104, 21011.885756292824]
+  position: [22932.111258241104, 21011.885756292824],
+  faction: LamangRecoveryInitiative
 }
 
 export const PLAttic: key = {
@@ -24,7 +26,8 @@ export const PLAttic: key = {
   types: [MarkerType.KEY, MarkerType.PHALANG, MarkerType.QUESTKEY],
   questKey: true,
   location: PhaLang,
-  position: [22643.21175250135, 21063.447756478625]
+  position: [22643.21175250135, 21063.447756478625],
+  faction: LamangRecoveryInitiative
 }
 
 export const PLMotel: key = {
@@ -37,7 +40,8 @@ export const PLMotel: key = {
   types: [MarkerType.KEY, MarkerType.PHALANG],
   questKey: false,
   location: PhaLang,
-  position: [22683.042289700912, 21140.937801685457]
+  position: [22683.042289700912, 21140.937801685457],
+  faction: LamangRecoveryInitiative
 }
 
 export const PLLumber: key = {
@@ -50,7 +54,8 @@ export const PLLumber: key = {
   types: [MarkerType.KEY, MarkerType.PHALANG],
   questKey: false,
   location: PhaLang,
-  position: [21994.037382036768, 20872.94422465671]
+  position: [21994.037382036768, 20872.94422465671],
+  faction: LamangRecoveryInitiative
 }
 
 export const PLUNLRA: key = {
@@ -63,7 +68,8 @@ export const PLUNLRA: key = {
   types: [MarkerType.KEY, MarkerType.PHALANG],
   questKey: false,
   location: PhaLang,
-  position: [22089.08300610559, 21068.975830186708]
+  position: [22089.08300610559, 21068.975830186708],
+  faction: LamangRecoveryInitiative
 }
 
 export const PLMarOfc: key = {
@@ -76,7 +82,8 @@ export const PLMarOfc: key = {
   types: [MarkerType.KEY, MarkerType.PHALANG],
   questKey: false,
   location: PhaLang,
-  position: [22180.241877875305, 20809.72203654915]
+  position: [22180.241877875305, 20809.72203654915],
+  faction: LamangRecoveryInitiative
 }
 
 export const PLMarStr: key = {
@@ -89,5 +96,6 @@ export const PLMarStr: key = {
   types: [MarkerType.KEY, MarkerType.PHALANG],
   questKey: false,
   location: PhaLang,
-  position: [22171.521725887826, 20821.38314647741]
+  position: [22171.521725887826, 20821.38314647741],
+  faction: LamangRecoveryInitiative
 }
