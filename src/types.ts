@@ -13,6 +13,7 @@ export type faction = Marker & {
   description: string;
   image: string;
   types: MarkerType[];
+  locationId: string;
 };
 
 export type lz = Marker & {
