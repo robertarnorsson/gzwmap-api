@@ -54,6 +54,16 @@ app.get('/objectives', (c) => {
   return c.json(Tasks.flatMap((task) => task.objectives))
 })
 
+app.get('/objectives/:id', (c) => {
+  const id = c.req.param('id')
+  const objectives = Tasks.flatMap((task) => task.objectives)
+  const objective = objectives.find((objective) => objective.id === id)
+  if (!objective) {
+    return c.text('Objective not found', 404)
+  }
+  return c.json(objective)
+})
+
 app.get('/locations', (c) => {
   return c.json(Locations)
 })
