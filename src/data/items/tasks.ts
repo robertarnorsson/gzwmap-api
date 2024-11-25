@@ -6,6 +6,6 @@ export const FakeIntel: item = {
   shortName: "Intel",
   description: "Intel containing deceptive information to confuse the enemy and benefit the PMC.",
   size: [1, 1],
-  image: "/items/tasks/fake-intel.png",
+  image: "/assets/items/tasks/fake-intel.png",
   types: [MarkerType.ITEM, MarkerType.INTEL]
 }

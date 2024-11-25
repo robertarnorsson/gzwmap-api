@@ -158,11 +158,11 @@ export enum ObjectiveType {
 }
 
 export enum KeyTypes {
-  ROUNDKEY = "/items/keys/key-round.png",
-  ROUNDGOLDKEY = "/items/keys/key-round-gold.png",
-  SQUAREKEY = "/items/keys/key-square.png",
-  SQUAREGOLDKEY = "/items/keys/key-gold-square.png",
-  SKINNYKEY = "/items/keys/key-skinny.png",
-  SKINNYGOLDKEY = "/items/keys/key-gold-skinny.png",
-  BLUETHICKKEY = "/items/keys/key-blue-thick.png",
+  ROUNDKEY = "/assets/items/keys/key-round.png",
+  ROUNDGOLDKEY = "/assets/items/keys/key-round-gold.png",
+  SQUAREKEY = "/assets/items/keys/key-square.png",
+  SQUAREGOLDKEY = "/assets/items/keys/key-gold-square.png",
+  SKINNYKEY = "/assets/items/keys/key-skinny.png",
+  SKINNYGOLDKEY = "/assets/items/keys/key-gold-skinny.png",
+  BLUETHICKKEY = "/assets/items/keys/key-blue-thick.png",
 }
