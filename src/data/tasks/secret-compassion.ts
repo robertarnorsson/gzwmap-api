@@ -42,6 +42,20 @@ const SecretCompassion_Objective2_LRI: objective = {
 }
 
 const SecretCompassion_Objective3_LRI: objective = {
+  id: "O-H6BCOZ",
+  name: "House",
+  description: "Place the Supplies in a box by the front door at a house in Pha Lang",
+  position: [22642.27837794225, 21168.6183930916],
+  type: ObjectiveType.STASH,
+  faction: LamangRecoveryInitiative,
+  types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.PHALANG],
+  location: PhaLang,
+  items: [BoxOfSupplies],
+  note: "Completing this will give you the last location"
+}
+
+
+const SecretCompassion_Objective4_LRI: objective = {
   id: "O-XRHI6K",
   name: "Logging Shed",
   description: "Place the Supplies in a box by the front door at a farm north of Pha Lang",
@@ -65,6 +79,10 @@ const SecretCompassion_Objective1_MMS: objective = {
   position: [15837.505738174745, 12990.525627908482],
   type: ObjectiveType.STASH,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/secret-compassion-farm-1.webp",
+    small: "/assets/objectives/thumbnail/secret-compassion-farm-1.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.NAMTHAVEN],
   location: NamThaven,
   items: [BoxOfSupplies]
@@ -77,18 +95,39 @@ const SecretCompassion_Objective2_MMS: objective = {
   position: [16992.002088144804, 12625.438282469631],
   type: ObjectiveType.STASH,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/secret-compassion-farm-2.webp",
+    small: "/assets/objectives/thumbnail/secret-compassion-farm-2.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.NAMTHAVEN],
   location: NamThaven,
   items: [BoxOfSupplies]
 }
 
 const SecretCompassion_Objective3_MMS: objective = {
+  id: "O-F5H3SW",
+  name: "House",
+  description: "Place the Supplies in a box by the front door at a house in Nam Thaven",
+  position: [16384.333062878042, 12024.3077806735],
+  type: ObjectiveType.STASH,
+  faction: MithrasSecuritySystems,
+  types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.NAMTHAVEN],
+  location: NamThaven,
+  items: [BoxOfSupplies],
+  note: "Completing this will give you the last location"
+}
+
+const SecretCompassion_Objective4_MMS: objective = {
   id: "O-9UO605",
   name: "Logging Shed",
   description: "Place the Supplies in a box by the front door at a logging shed in the southeast part of Nam Thaven",
   position: [16763.960374789767, 12227.383649614789],
   type: ObjectiveType.STASH,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/secret-compassion-logging-shed.webp",
+    small: "/assets/objectives/thumbnail/secret-compassion-logging-shed.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.NAMTHAVEN],
   location: NamThaven,
   items: [BoxOfSupplies]
@@ -102,6 +141,10 @@ const SecretCompassion_Objective1_CSI: objective = {
   position: [11595.81212836082, 20883.248130679298],
   type: ObjectiveType.STASH,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/secret-compassion-farm-1.webp",
+    small: "/assets/objectives/thumbnail/secret-compassion-farm-1.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.KIUVONGSA],
   location: KiuVongsa,
   items: [BoxOfSupplies]
@@ -114,18 +157,39 @@ const SecretCompassion_Objective2_CSI: objective = {
   position: [10479.76577492203, 20415.978552770164],
   type: ObjectiveType.STASH,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/secret-compassion-farm-2.webp",
+    small: "/assets/objectives/thumbnail/secret-compassion-farm-2.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.KIUVONGSA],
   location: KiuVongsa,
   items: [BoxOfSupplies]
 }
 
 const SecretCompassion_Objective3_CSI: objective = {
+  id: "O-0COQ03",
+  name: "House",
+  description: "Place the Supplies in a box by the front door at a house in Kiu Vongsa",
+  position: [10558.537944702128, 21275.04070043038],
+  type: ObjectiveType.STASH,
+  faction: CrimsonShieldInternational,
+  types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.KIUVONGSA],
+  location: KiuVongsa,
+  items: [BoxOfSupplies],
+  note: "Completing this will give you the last location"
+}
+
+const SecretCompassion_Objective4_CSI: objective = {
   id: "O-VNHFNG",
   name: "Logging Shed",
   description: "Place the Supplies in a box by the front door at a logging shed in the northwest part of Kiu Vongsa",
   position: [10396.538526657367, 20870.59117726746],
   type: ObjectiveType.STASH,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/secret-compassion-logging-shed.webp",
+    small: "/assets/objectives/thumbnail/secret-compassion-logging-shed.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.KIUVONGSA],
   location: KiuVongsa,
   items: [BoxOfSupplies]
@@ -141,12 +205,15 @@ export const SecretCompassion: task = {
     SecretCompassion_Objective1_LRI,
     SecretCompassion_Objective2_LRI,
     SecretCompassion_Objective3_LRI,
+    SecretCompassion_Objective4_LRI,
     SecretCompassion_Objective1_MMS,
     SecretCompassion_Objective2_MMS,
     SecretCompassion_Objective3_MMS,
+    SecretCompassion_Objective4_MMS,
     SecretCompassion_Objective1_CSI,
     SecretCompassion_Objective2_CSI,
     SecretCompassion_Objective3_CSI,
+    SecretCompassion_Objective4_CSI,
   ],
   vendor: LabRat,
   level: 0,

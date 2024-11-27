@@ -12,37 +12,46 @@ import { KiuVongsa, NamThaven, PhaLang } from "../locations";
 const LeaveNoManBehind_Objective1_LRI: objective = {
   id: "O-YUMZRU",
   name: "Dead Soldier",
-  description: "Locate and mark the Dead Soldier near town hall",
+  description: "Locate and mark the Dead Soldier near the town hall",
   position: [22558.94381332311, 20762.519034190107],
   type: ObjectiveType.MARK,
   faction: LamangRecoveryInitiative,
+  image: {
+    large: "/assets/objectives/leave-no-man-behind.webp",
+    small: "/assets/objectives/thumbnail/leave-no-man-behind.webp",
+  },
   types: [MarkerType.TASK, MarkerType.MARK, MarkerType.GUNNY, MarkerType.PHALANG],
   location: PhaLang
-  
 }
 
 const LeaveNoManBehind_Objective1_MMS: objective = {
   id: "O-INNU3Y",
   name: "Dead Soldier",
-  description: "Locate and mark the Dead Soldier near town hall",
+  description: "Locate and mark the Dead Soldier near the town hall",
   position: [16176.775929952164, 12376.388208820372],
   type: ObjectiveType.MARK,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/leave-no-man-behind.webp",
+    small: "/assets/objectives/thumbnail/leave-no-man-behind.webp",
+  },
   types: [MarkerType.TASK, MarkerType.MARK, MarkerType.GUNNY, MarkerType.NAMTHAVEN],
   location: NamThaven
-  
 }
 
 const LeaveNoManBehind_Objective1_CSI: objective = {
   id: "O-27548K",
   name: "Dead Soldier",
-  description: "Locate and mark the Dead Soldier near town hall",
+  description: "Locate and mark the Dead Soldier near the town hall",
   position: [10936.715956695667, 21131.080409473157],
   type: ObjectiveType.MARK,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/leave-no-man-behind.webp",
+    small: "/assets/objectives/thumbnail/leave-no-man-behind.webp",
+  },
   types: [MarkerType.TASK, MarkerType.MARK, MarkerType.GUNNY, MarkerType.KIUVONGSA],
   location: KiuVongsa
-  
 }
 
 
