@@ -100,7 +100,7 @@ export const NTMarStr: key = {
   faction: MithrasSecuritySystems
 }
 
-export const NTAtticFin: key = {
+export const NTFin: key = {
   id: "K-3LEWNN",
   name: "Nam Thaven Town Hall Finance Department Key",
   shortName: "NT Fin",

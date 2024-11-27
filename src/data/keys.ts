@@ -7,7 +7,8 @@ import {
     PLMarOfc,
     PLMarStr,
     PLMotel,
-    PLUNLRA
+    PLUNLRA,
+    PLFin
 } from "./keys/pha-lang";
 
 import {
@@ -17,7 +18,8 @@ import {
     NTMarOfc,
     NTMarStr,
     NTMotel,
-    NTUNLRA
+    NTUNLRA,
+    NTFin
 } from "./keys/nam-thaven";
 
 import {
@@ -27,7 +29,8 @@ import {
     KVMarOfc,
     KVMarStr,
     KVMotel,
-    KVUNLRA
+    KVUNLRA,
+    KVFin
 } from "./keys/kiu-vongsa";
 
 import {
@@ -117,6 +120,7 @@ export const Keys: key[] = [
     PLUNLRA,
     PLMarOfc,
     PLMarStr,
+    PLFin,
     NTDoctorsOffice,
     NTAttic,
     NTMotel,
@@ -124,6 +128,7 @@ export const Keys: key[] = [
     NTUNLRA,
     NTMarOfc,
     NTMarStr,
+    NTFin,
     KVDoctorsOffice,
     KVAttic,
     KVMotel,
@@ -131,6 +136,7 @@ export const Keys: key[] = [
     KVUNLRA,
     KVMarOfc,
     KVMarStr,
+    KVFin,
     HPWep,
     HP101,
     HP102,
