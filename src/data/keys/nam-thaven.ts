@@ -50,7 +50,7 @@ export const NTLumber: key = {
   shortName: "NT Lubmer",
   description: "A key to the Nam Thaven lumberyard maintenance room.",
   size: [1, 1],
-  image: KeyTypes.SQUAREKEY,
+  image: KeyTypes.ROUNDGOLDKEY,
   types: [MarkerType.KEY, MarkerType.NAMTHAVEN],
   questKey: false,
   location: NamThaven,
@@ -97,5 +97,19 @@ export const NTMarStr: key = {
   questKey: false,
   location: NamThaven,
   position: [16522.041995672604, 12577.938308724099],
+  faction: MithrasSecuritySystems
+}
+
+export const NTAtticFin: key = {
+  id: "K-X3NQ9O",
+  name: "Nam Thaven Town Hall Finance Department Key",
+  shortName: "NT Fin",
+  description: "A key to the finance department of the Nam Thaven town hall.",
+  size: [1, 1],
+  image: KeyTypes.SKINNYKEY,
+  types: [MarkerType.KEY, MarkerType.NAMTHAVEN],
+  questKey: false,
+  location: NamThaven,
+  position: [10984.196216263777, 21109.077161594385],
   faction: MithrasSecuritySystems
 }

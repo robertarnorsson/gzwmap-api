@@ -50,7 +50,7 @@ export const PLLumber: key = {
   shortName: "PL Lubmer",
   description: "A key to the Pha Lang lumberyard maintenance room.",
   size: [1, 1],
-  image: KeyTypes.SQUAREKEY,
+  image: KeyTypes.ROUNDGOLDKEY,
   types: [MarkerType.KEY, MarkerType.PHALANG],
   questKey: false,
   location: PhaLang,
@@ -97,5 +97,19 @@ export const PLMarStr: key = {
   questKey: false,
   location: PhaLang,
   position: [22171.521725887826, 20821.38314647741],
+  faction: LamangRecoveryInitiative
+}
+
+export const PLFin: key = {
+  id: "K-X3NQ9O",
+  name: "Pha Lang Town Hall Finance Department Key",
+  shortName: "PL Fin",
+  description: "A key to the finance department of the Pha Lang town hall.",
+  size: [1, 1],
+  image: KeyTypes.SKINNYKEY,
+  types: [MarkerType.KEY, MarkerType.PHALANG],
+  questKey: false,
+  location: PhaLang,
+  position: [22552.534693149653, 20712.68471257767],
   faction: LamangRecoveryInitiative
 }

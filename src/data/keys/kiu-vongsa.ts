@@ -50,7 +50,7 @@ export const KVLumber: key = {
   shortName: "KV Lubmer",
   description: "A key to the Kiu Vongsa lumberyard maintenance room.",
   size: [1, 1],
-  image: KeyTypes.SQUAREKEY,
+  image: KeyTypes.ROUNDGOLDKEY,
   types: [MarkerType.KEY, MarkerType.KIUVONGSA],
   questKey: false,
   location: KiuVongsa,
@@ -97,5 +97,19 @@ export const KVMarStr: key = {
   questKey: false,
   location: KiuVongsa,
   position: [10809.4430742678, 20755.55498997356],
+  faction: CrimsonShieldInternational
+}
+
+export const KVFin: key = {
+  id: "K-X3NQ9O",
+  name: "Kiu Vongsa Town Hall Finance Department Key",
+  shortName: "KV Fin",
+  description: "A key to the finance department of the Kiu Vongsa town hall.",
+  size: [1, 1],
+  image: KeyTypes.SKINNYKEY,
+  types: [MarkerType.KEY, MarkerType.KIUVONGSA],
+  questKey: false,
+  location: KiuVongsa,
+  position: [10984.196216263777, 21109.077161594385],
   faction: CrimsonShieldInternational
 }
