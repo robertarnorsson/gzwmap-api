@@ -87,7 +87,7 @@ export const PLMarOfc: key = {
 }
 
 export const PLMarStr: key = {
-  id: "K-X3NQ9O",
+  id: "K-00C8SH",
   name: "Pha Lang Marketplace Storeroom Key",
   shortName: "PL MarStr",
   description: "A key for an storeroom in the Pha Lang marketplace.",
@@ -101,7 +101,7 @@ export const PLMarStr: key = {
 }
 
 export const PLFin: key = {
-  id: "K-X3NQ9O",
+  id: "K-R39Z0P",
   name: "Pha Lang Town Hall Finance Department Key",
   shortName: "PL Fin",
   description: "A key to the finance department of the Pha Lang town hall.",

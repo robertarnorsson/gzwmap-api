@@ -101,7 +101,7 @@ export const KVMarStr: key = {
 }
 
 export const KVFin: key = {
-  id: "K-X3NQ9O",
+  id: "K-Q9DE4R",
   name: "Kiu Vongsa Town Hall Finance Department Key",
   shortName: "KV Fin",
   description: "A key to the finance department of the Kiu Vongsa town hall.",

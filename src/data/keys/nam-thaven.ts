@@ -101,7 +101,7 @@ export const NTMarStr: key = {
 }
 
 export const NTAtticFin: key = {
-  id: "K-X3NQ9O",
+  id: "K-3LEWNN",
   name: "Nam Thaven Town Hall Finance Department Key",
   shortName: "NT Fin",
   description: "A key to the finance department of the Nam Thaven town hall.",
