@@ -16,7 +16,7 @@ const app = new Hono<{ Bindings: Env }>()
 app.use(
   '*',
   cors({
-    origin: ['http://gzwmap.com', 'https://new.gzwmap.com', 'http://localhost:5173'],
+    origin: ['https://gzwmap.com', 'https://new.gzwmap.com', 'http://localhost:5173'],
     allowMethods: ['GET', 'OPTIONS'],
     allowHeaders: ['Content-Type']
   })
