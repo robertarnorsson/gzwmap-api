@@ -48,6 +48,10 @@ const SecretCompassion_Objective3_LRI: objective = {
   position: [22642.27837794225, 21168.6183930916],
   type: ObjectiveType.STASH,
   faction: LamangRecoveryInitiative,
+  image: {
+    large: "/assets/objectives/secret-compassion-house.webp",
+    small: "/assets/objectives/thumbnail/secret-compassion-house.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.PHALANG],
   location: PhaLang,
   items: [BoxOfSupplies],
@@ -111,6 +115,10 @@ const SecretCompassion_Objective3_MMS: objective = {
   position: [16384.333062878042, 12024.3077806735],
   type: ObjectiveType.STASH,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/secret-compassion-house.webp",
+    small: "/assets/objectives/thumbnail/secret-compassion-house.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.NAMTHAVEN],
   location: NamThaven,
   items: [BoxOfSupplies],
@@ -173,6 +181,10 @@ const SecretCompassion_Objective3_CSI: objective = {
   position: [10558.537944702128, 21275.04070043038],
   type: ObjectiveType.STASH,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/secret-compassion-house.webp",
+    small: "/assets/objectives/thumbnail/secret-compassion-house.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.LABRAT, MarkerType.KIUVONGSA],
   location: KiuVongsa,
   items: [BoxOfSupplies],
