@@ -14,6 +14,10 @@ const RadioSilence_Objective1_LRI: objective = {
   position: [22592.469459640535, 21258.32608340725],
   type: ObjectiveType.COLLECT,
   faction: LamangRecoveryInitiative,
+  image: {
+    large: "/assets/objectives/radio-silence.webp",
+    small: "/assets/objectives/thumbnail/radio-silence.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.PHALANG],
   location: PhaLang
 }
@@ -25,6 +29,10 @@ const RadioSilence_Objective1_MMS: objective = {
   position: [16479.92897340471, 11974.752786268764],
   type: ObjectiveType.COLLECT,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/radio-silence.webp",
+    small: "/assets/objectives/thumbnail/radio-silence.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.NAMTHAVEN],
   location: NamThaven
 }
@@ -36,6 +44,10 @@ const RadioSilence_Objective1_CSI: objective = {
   position: [10448.462873758483, 21247.675981201795],
   type: ObjectiveType.COLLECT,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/radio-silence.webp",
+    small: "/assets/objectives/thumbnail/radio-silence.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.KIUVONGSA],
   location: KiuVongsa
 }

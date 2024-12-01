@@ -14,6 +14,10 @@ const LeftBehindPartOne_Objective1_LRI: objective = {
   position: [22435.23714176152, 19727.978407172533],
   type: ObjectiveType.LOCATE,
   faction: LamangRecoveryInitiative,
+  image: {
+    large: "/assets/objectives/left-behind.webp",
+    small: "/assets/objectives/thumbnail/left-behind.webp"
+  },
   types: [MarkerType.TASK, MarkerType.LOCATE, MarkerType.HANDSHAKE, MarkerType.PHALANG],
   location: PhaLang
 }
@@ -25,6 +29,10 @@ const LeftBehindPartOne_Objective1_MMS: objective = {
   position: [15612.207592857932, 13247.075320901084],
   type: ObjectiveType.LOCATE,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/left-behind.webp",
+    small: "/assets/objectives/thumbnail/left-behind.webp"
+  },
   types: [MarkerType.TASK, MarkerType.LOCATE, MarkerType.HANDSHAKE, MarkerType.NAMTHAVEN],
   location: NamThaven
 }
@@ -36,6 +44,10 @@ const LeftBehindPartOne_Objective1_CSI: objective = {
   position: [11933.52890014618, 20829.122568581934],
   type: ObjectiveType.LOCATE,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/left-behind.webp",
+    small: "/assets/objectives/thumbnail/left-behind.webp"
+  },
   types: [MarkerType.TASK, MarkerType.LOCATE, MarkerType.HANDSHAKE, MarkerType.KIUVONGSA],
   location: KiuVongsa
 }

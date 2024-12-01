@@ -15,6 +15,10 @@ const LostAndFound_Objective1_LRI: objective = {
   position: [22082.442332651884, 20900.351884405703],
   type: ObjectiveType.COLLECT,
   faction: LamangRecoveryInitiative,
+  image: {
+    large: "/assets/objectives/lost-and-found.webp",
+    small: "/assets/objectives/thumbnail/lost-and-found.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.LABRAT, MarkerType.PHALANG],
   location: PhaLang
 }
@@ -26,6 +30,10 @@ const LostAndFound_Objective1_MMS: objective = {
   position: [16642.13272505843, 12574.999145389951],
   type: ObjectiveType.COLLECT,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/lost-and-found.webp",
+    small: "/assets/objectives/thumbnail/lost-and-found.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.LABRAT, MarkerType.NAMTHAVEN],
   location: NamThaven
 }
@@ -37,6 +45,10 @@ const LostAndFound_Objective1_CSI: objective = {
   position: [10711.817965800094, 20682.161792965762],
   type: ObjectiveType.COLLECT,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/lost-and-found.webp",
+    small: "/assets/objectives/thumbnail/lost-and-found.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.LABRAT, MarkerType.KIUVONGSA],
   location: KiuVongsa
 }

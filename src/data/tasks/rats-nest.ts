@@ -15,8 +15,8 @@ const RatsNest_Objective1_LRI: objective = {
   type: ObjectiveType.COLLECT,
   faction: LamangRecoveryInitiative,
   image: {
-    large: "/assets/objectives/thugs-smartphone.webp",
-    small: "/assets/objectives/thumbnail/thugs-smartphone.webp"
+    large: "/assets/objectives/rats-nest-smartphone.webp",
+    small: "/assets/objectives/thumbnail/rats-nest-smartphone.webp"
   },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.PHALANG],
   location: PhaLang
@@ -30,8 +30,8 @@ const RatsNest_Objective2_LRI: objective = {
   type: ObjectiveType.COLLECT,
   faction: LamangRecoveryInitiative,
   image: {
-    large: "/assets/objectives/convicts-notepad.webp",
-    small: "/assets/objectives/thumbnail/convicts-notepad.webp"
+    large: "/assets/objectives/rats-nest-notepad.webp",
+    small: "/assets/objectives/thumbnail/rats-nest-notepad.webp"
   },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.PHALANG],
   location: PhaLang
@@ -46,8 +46,8 @@ const RatsNest_Objective1_MMS: objective = {
   type: ObjectiveType.COLLECT,
   faction: MithrasSecuritySystems,
   image: {
-    large: "/assets/objectives/thugs-smartphone.webp",
-    small: "/assets/objectives/thumbnail/thugs-smartphone.webp"
+    large: "/assets/objectives/rats-nest-smartphone.webp",
+    small: "/assets/objectives/thumbnail/rats-nest-smartphone.webp"
   },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.NAMTHAVEN],
   location: NamThaven
@@ -61,8 +61,8 @@ const RatsNest_Objective2_MMS: objective = {
   type: ObjectiveType.COLLECT,
   faction: MithrasSecuritySystems,
   image: {
-    large: "/assets/objectives/convicts-notepad.webp",
-    small: "/assets/objectives/thumbnail/convicts-notepad.webp"
+    large: "/assets/objectives/rats-nest-notepad.webp",
+    small: "/assets/objectives/thumbnail/rats-nest-notepad.webp"
   },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.NAMTHAVEN],
   location: NamThaven
@@ -77,8 +77,8 @@ const RatsNest_Objective1_CSI: objective = {
   type: ObjectiveType.COLLECT,
   faction: CrimsonShieldInternational,
   image: {
-    large: "/assets/objectives/thugs-smartphone.webp",
-    small: "/assets/objectives/thumbnail/thugs-smartphone.webp"
+    large: "/assets/objectives/rats-nest-smartphone.webp",
+    small: "/assets/objectives/thumbnail/rats-nest-smartphone.webp"
   },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.KIUVONGSA],
   location: KiuVongsa
@@ -92,8 +92,8 @@ const RatsNest_Objective2_CSI: objective = {
   type: ObjectiveType.COLLECT,
   faction: CrimsonShieldInternational,
   image: {
-    large: "/assets/objectives/convicts-notepad.webp",
-    small: "/assets/objectives/thumbnail/convicts-notepad.webp"
+    large: "/assets/objectives/rats-nest-notepad.webp",
+    small: "/assets/objectives/thumbnail/rats-nest-notepad.webp"
   },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.KIUVONGSA],
   location: KiuVongsa

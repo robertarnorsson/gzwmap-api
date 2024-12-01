@@ -18,6 +18,10 @@ const MedicalDetective_Objective1_LRI: objective = {
   position: [22923.79371745137, 21006.586610000864],
   type: ObjectiveType.COLLECT,
   faction: LamangRecoveryInitiative,
+  image: {
+    large: "/assets/objectives/medical-detective.webp",
+    small: "/assets/objectives/thumbnail/medical-detective.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.GUNNY, MarkerType.PHALANG],
   location: PhaLang,
   key: PLDoctorsOffice,
@@ -30,6 +34,10 @@ const MedicalDetective_Objective1_MMS: objective = {
   position: [16065.666051387669, 11957.043903051714],
   type: ObjectiveType.COLLECT,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/medical-detective.webp",
+    small: "/assets/objectives/thumbnail/medical-detective.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.GUNNY, MarkerType.NAMTHAVEN],
   location: NamThaven,
   key: NTDoctorsOffice,
@@ -42,6 +50,10 @@ const MedicalDetective_Objective1_CSI: objective = {
   position: [10753.91581875644, 21528.27892750005],
   type: ObjectiveType.COLLECT,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/medical-detective.webp",
+    small: "/assets/objectives/thumbnail/medical-detective.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.GUNNY, MarkerType.KIUVONGSA],
   location: KiuVongsa,
   key: KVDoctorsOffice,

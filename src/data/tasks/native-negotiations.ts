@@ -14,6 +14,10 @@ const NativeNegotiations_Objective1_LRI: objective = {
   position: [23453.066971878725, 22665.682017453368],
   type: ObjectiveType.COLLECT,
   faction: LamangRecoveryInitiative,
+  image: {
+    large: "/assets/objectives/native-negotiations-briefcase.webp",
+    small: "/assets/objectives/thumbnail/native-negotiations-briefcase.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.PHALANG],
   location: PhaLang
 }
@@ -25,8 +29,13 @@ const NativeNegotiations_Objective2_LRI: objective = {
   position: [22545.768003999507, 20964.360732446403],
   type: ObjectiveType.STASH,
   faction: LamangRecoveryInitiative,
+  image: {
+    large: "/assets/objectives/native-negotiations-truck-1.webp",
+    small: "/assets/objectives/thumbnail/native-negotiations-truck-1.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.HANDSHAKE, MarkerType.PHALANG],
-  location: PhaLang
+  location: PhaLang,
+  time: ["12:00", "22:00"]
 }
 
 
@@ -37,6 +46,10 @@ const NativeNegotiations_Objective1_MMS: objective = {
   position: [16725.106141123215, 10345.504346546013],
   type: ObjectiveType.COLLECT,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/native-negotiations-briefcase.webp",
+    small: "/assets/objectives/thumbnail/native-negotiations-briefcase.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.NAMTHAVEN],
   location: NamThaven
 }
@@ -48,8 +61,13 @@ const NativeNegotiations_Objective2_MMS: objective = {
   position: [16320.133303158234, 12228.41520729624],
   type: ObjectiveType.STASH,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/native-negotiations-truck-1.webp",
+    small: "/assets/objectives/thumbnail/native-negotiations-truck-1.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.HANDSHAKE, MarkerType.NAMTHAVEN],
-  location: NamThaven
+  location: NamThaven,
+  time: ["12:00", "22:00"]
 }
 
 
@@ -60,6 +78,10 @@ const NativeNegotiations_Objective1_CSI: objective = {
   position: [9216.44857955246, 22338.25267513902],
   type: ObjectiveType.COLLECT,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/native-negotiations-briefcase.webp",
+    small: "/assets/objectives/thumbnail/native-negotiations-briefcase.webp"
+  },
   types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.KIUVONGSA],
   location: KiuVongsa
 }
@@ -71,8 +93,13 @@ const NativeNegotiations_Objective2_CSI: objective = {
   position: [10737.243803554842, 21156.64142256671],
   type: ObjectiveType.STASH,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/native-negotiations-truck-1.webp",
+    small: "/assets/objectives/thumbnail/native-negotiations-truck-1.webp"
+  },
   types: [MarkerType.TASK, MarkerType.STASH, MarkerType.HANDSHAKE, MarkerType.KIUVONGSA],
-  location: KiuVongsa
+  location: KiuVongsa,
+  time: ["12:00", "22:00"]
 }
 
 

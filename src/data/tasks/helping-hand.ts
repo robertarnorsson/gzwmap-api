@@ -19,6 +19,10 @@ const HelpingHand_Objective1_LRI: objective = {
     position: [22638.08464240893, 21059.02251854481],
     type: ObjectiveType.COLLECT,
     faction: LamangRecoveryInitiative,
+    image: {
+      large: "/assets/objectives/helping-hand.webp",
+      small: "/assets/objectives/thumbnail/helping-hand.webp"
+    },
     types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.PHALANG],
     location: PhaLang,
     key: PLAttic
@@ -31,6 +35,10 @@ const HelpingHand_Objective1_MMS: objective = {
     position: [16313.779816479746, 12096.787298634414],
     type: ObjectiveType.COLLECT,
     faction: MithrasSecuritySystems,
+    image: {
+      large: "/assets/objectives/helping-hand.webp",
+      small: "/assets/objectives/thumbnail/helping-hand.webp"
+    },
     types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.NAMTHAVEN],
     location: NamThaven,
     key: NTAttic
@@ -43,6 +51,10 @@ const HelpingHand_Objective1_CSI: objective = {
     position: [10653.763347846969, 21262.982863340658],
     type: ObjectiveType.COLLECT,
     faction: CrimsonShieldInternational,
+    image: {
+      large: "/assets/objectives/helping-hand.webp",
+      small: "/assets/objectives/thumbnail/helping-hand.webp"
+    },
     types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.KIUVONGSA],
     location: KiuVongsa,
     key: KVAttic

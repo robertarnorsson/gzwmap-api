@@ -15,6 +15,10 @@ const LastFarewellPartOne_Objective1_LRI: objective = {
   position: [22434.271907727114, 19716.16022712469],
   type: ObjectiveType.MARK,
   faction: LamangRecoveryInitiative,
+  image: {
+    large: "/assets/objectives/last-farewell.webp",
+    small: "/assets/objectives/thumbnail/last-farewell.webp"
+  },
   types: [MarkerType.TASK, MarkerType.MARK, MarkerType.GUNNY, MarkerType.PHALANG],
   location: PhaLang,
   items: [GPSTracker]
@@ -27,6 +31,10 @@ const LastFarewellPartOne_Objective1_MMS: objective = {
   position: [15609.016458728505, 13261.125004666106],
   type: ObjectiveType.MARK,
   faction: MithrasSecuritySystems,
+  image: {
+    large: "/assets/objectives/last-farewell.webp",
+    small: "/assets/objectives/thumbnail/last-farewell.webp"
+  },
   types: [MarkerType.TASK, MarkerType.MARK, MarkerType.GUNNY, MarkerType.NAMTHAVEN],
   location: NamThaven,
   items: [GPSTracker]
@@ -39,6 +47,10 @@ const LastFarewellPartOne_Objective1_CSI: objective = {
   position: [11944.519831278469, 20824.900989189373],
   type: ObjectiveType.MARK,
   faction: CrimsonShieldInternational,
+  image: {
+    large: "/assets/objectives/last-farewell.webp",
+    small: "/assets/objectives/thumbnail/last-farewell.webp"
+  },
   types: [MarkerType.TASK, MarkerType.MARK, MarkerType.GUNNY, MarkerType.KIUVONGSA],
   location: KiuVongsa,
   items: [GPSTracker]
