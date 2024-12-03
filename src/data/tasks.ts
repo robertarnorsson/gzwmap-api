@@ -84,9 +84,11 @@ import { NameYourPoison }                 from "./tasks/name-your-poison";
 import { NarcoticBargains }               from "./tasks/narcotic-bargains";
 import { NativeNegotiations }             from "./tasks/native-negotiations";
 import { NeighbourlyHelp }                from "./tasks/neighbourly-help";
+import { NewNeighbours }                  from "./tasks/new-neighbours";
 import { NightOcean }                     from "./tasks/night-ocean";
 import { NoEscape }                       from "./tasks/no-escape";
 import { NoQuestionsAsked }               from "./tasks/no-questions-asked";
+import { NoWayUp }                        from "./tasks/no-way-up";
 import { NobelPowder }                    from "./tasks/nobel-powder";
 import { OnTheRange }                     from "./tasks/on-the-range";
 import { OneMansTrash }                   from "./tasks/one-mans-trash";
@@ -136,6 +138,7 @@ import { UnlraPartTwo }                   from "./tasks/unlra-part-2";
 import { UnlraPartThree }                 from "./tasks/unlra-part-3";
 import { UnlraPartFour }                  from "./tasks/unlra-part-4";
 import { Unnameable }                     from "./tasks/unnameable";
+import { UpTheStream }                    from "./tasks/up-the-stream";
 import { UpToSnuff }                      from "./tasks/up-to-snuff";
 import { WantedManPartOne }               from "./tasks/wanted-man-part-1";
 import { WantedManPartTwo }               from "./tasks/wanted-man-part-2";
@@ -238,9 +241,11 @@ export const Tasks: task[] = [
   NarcoticBargains,
   NativeNegotiations,
   NeighbourlyHelp,
+  NewNeighbours,
   NightOcean,
   NoEscape,
   NoQuestionsAsked,
+  NoWayUp,
   NobelPowder,
   OnTheRange,
   OneMansTrash,
@@ -290,6 +295,7 @@ export const Tasks: task[] = [
   UnlraPartThree,
   UnlraPartFour,
   Unnameable,
+  UpTheStream,
   UpToSnuff,
   WantedManPartOne,
   WantedManPartTwo,
