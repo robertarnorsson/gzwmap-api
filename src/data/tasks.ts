@@ -1,6 +1,7 @@
 import { AShotInTheDark }                 from "./tasks/a-shot-in-the-dark";
 import { ASingleDrop }                    from "./tasks/a-single-drop";
 import { ASmallFavor }                    from "./tasks/a-small-favor";
+import { ATidingOfMagpies }                    from "./tasks/a-tiding-of-magpies";
 import { AcademicIntrest }                from "./tasks/academic-intrest";
 import { ArtisansList }                   from "./tasks/artisans-list-part-1";
 import { ArtisansListPartTwo }            from "./tasks/artisans-list-part-2";
@@ -18,11 +19,14 @@ import { CheckOutComputers }              from "./tasks/check-out-computers";
 import { CovertResearch }                 from "./tasks/covert-research";
 import { CrimeDoesntPay }                 from "./tasks/crime-doesnt-pay";
 import { CrumbCollector }                 from "./tasks/crumb-collector";
+import { DealOfTheCentury }               from "./tasks/deal-of-the-century";
 import { DeepDepravity }                  from "./tasks/deep-depravity";
 import { DeepWaters }                     from "./tasks/deep-waters";
 import { DeepestDarkestFantasies }        from "./tasks/deepest-darkest-fantasies";
 import { DelayedPackage }                 from "./tasks/delayed-package";
 import { DirtDigger }                     from "./tasks/dirt-digger";
+import { DishonestPractices }             from "./tasks/dishonest-practices";
+import { DomesticatedRat }                from "./tasks/domesticated-rat";
 import { Downsizing }                     from "./tasks/downsizing";
 import { Dragonslayer }                   from "./tasks/dragonslayer";
 import { DutyToTheCountry }               from "./tasks/duty-to-the-country";
@@ -84,9 +88,11 @@ import { NameYourPoison }                 from "./tasks/name-your-poison";
 import { NarcoticBargains }               from "./tasks/narcotic-bargains";
 import { NativeNegotiations }             from "./tasks/native-negotiations";
 import { NeighbourlyHelp }                from "./tasks/neighbourly-help";
+import { NewNeighbours }                  from "./tasks/new-neighbours";
 import { NightOcean }                     from "./tasks/night-ocean";
 import { NoEscape }                       from "./tasks/no-escape";
 import { NoQuestionsAsked }               from "./tasks/no-questions-asked";
+import { NoWayUp }                        from "./tasks/no-way-up";
 import { NobelPowder }                    from "./tasks/nobel-powder";
 import { OnTheRange }                     from "./tasks/on-the-range";
 import { OneMansTrash }                   from "./tasks/one-mans-trash";
@@ -103,6 +109,7 @@ import { Reclamation }                    from "./tasks/reclamation";
 import { ReconnaissanceInForce }          from "./tasks/reconnaissance-in-force";
 import { RestoringOrder }                 from "./tasks/restoring-order";
 import { Ripper }                         from "./tasks/ripper";
+import { RiverfrontView }                 from "./tasks/riverfront-view";
 import { SaveTheRebellion }               from "./tasks/save-the-rebellion";
 import { SecretCompassion }               from "./tasks/secret-compassion";
 import { SeekerOfChange }                 from "./tasks/seeker-of-change";
@@ -118,12 +125,16 @@ import { TestResults }                    from "./tasks/test-results";
 import { TheArtOfDeception }              from "./tasks/the-art-of-deception";
 import { TheBrave }                       from "./tasks/the-brave";
 import { TheCongressman }                 from "./tasks/the-congressman";
+import { TheLull }                        from "./tasks/the-lull";
 import { TheManWhoDisappeared }           from "./tasks/the-man-who-disappeared";
 import { TheMoreTheMerrier }              from "./tasks/the-more-the-merrier";
 import { TheMostDangerousGame }           from "./tasks/the-most-dangerous-game";
 import { TheNegotiator }                  from "./tasks/the-negotiator";
+import { TheRebelPath }                   from "./tasks/the-rebel-path";
 import { TheShadowOverBanPaPartOne }      from "./tasks/the-shadow-over-ban-pa-part-1";
 import { TheShadowOverBanPaPartTwo }      from "./tasks/the-shadow-over-ban-pa-part-2";
+import { TheSnitch }                      from "./tasks/the-snitch";
+import { TheStand }                       from "./tasks/the-stand";
 import { TheValueOfSharing }              from "./tasks/the-value-of-sharing";
 import { Timber }                         from "./tasks/timber";
 import { TooCloseToTheSun }               from "./tasks/too-close-to-the-sun";
@@ -136,6 +147,7 @@ import { UnlraPartTwo }                   from "./tasks/unlra-part-2";
 import { UnlraPartThree }                 from "./tasks/unlra-part-3";
 import { UnlraPartFour }                  from "./tasks/unlra-part-4";
 import { Unnameable }                     from "./tasks/unnameable";
+import { UpTheStream }                    from "./tasks/up-the-stream";
 import { UpToSnuff }                      from "./tasks/up-to-snuff";
 import { WantedManPartOne }               from "./tasks/wanted-man-part-1";
 import { WantedManPartTwo }               from "./tasks/wanted-man-part-2";
@@ -155,6 +167,7 @@ export const Tasks: task[] = [
   AShotInTheDark,
   ASingleDrop,
   ASmallFavor,
+  ATidingOfMagpies,
   AcademicIntrest,
   ArtisansList,
   ArtisansListPartTwo,
@@ -172,11 +185,14 @@ export const Tasks: task[] = [
   CovertResearch,
   CrimeDoesntPay,
   CrumbCollector,
+  DealOfTheCentury,
   DeepDepravity,
   DeepWaters,
   DeepestDarkestFantasies,
   DelayedPackage,
   DirtDigger,
+  DishonestPractices,
+  DomesticatedRat,
   Downsizing,
   Dragonslayer,
   DutyToTheCountry,
@@ -238,9 +254,11 @@ export const Tasks: task[] = [
   NarcoticBargains,
   NativeNegotiations,
   NeighbourlyHelp,
+  NewNeighbours,
   NightOcean,
   NoEscape,
   NoQuestionsAsked,
+  NoWayUp,
   NobelPowder,
   OnTheRange,
   OneMansTrash,
@@ -257,6 +275,7 @@ export const Tasks: task[] = [
   ReconnaissanceInForce,
   RestoringOrder,
   Ripper,
+  RiverfrontView,
   SaveTheRebellion,
   SecretCompassion,
   SeekerOfChange,
@@ -272,12 +291,16 @@ export const Tasks: task[] = [
   TheArtOfDeception,
   TheBrave,
   TheCongressman,
+  TheLull,
   TheManWhoDisappeared,
   TheMoreTheMerrier,
   TheMostDangerousGame,
   TheNegotiator,
+  TheRebelPath,
   TheShadowOverBanPaPartOne,
   TheShadowOverBanPaPartTwo,
+  TheSnitch,
+  TheStand,
   TheValueOfSharing,
   Timber,
   TooCloseToTheSun,
@@ -290,6 +313,7 @@ export const Tasks: task[] = [
   UnlraPartThree,
   UnlraPartFour,
   Unnameable,
+  UpTheStream,
   UpToSnuff,
   WantedManPartOne,
   WantedManPartTwo,

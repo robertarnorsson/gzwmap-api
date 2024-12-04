@@ -5,8 +5,8 @@ import { MidnightSapphire } from "../locations";
 const LeftBehindPartTwo_Objective1: objective = {
     id: "O-QOH2PW",
     name: "Body",
-    description: "Find the body laying in the grass near the flag",
-    position: [15979.076629630958, 21996.82500708069],
+    description: "Find the body laying in the grass Northwest of Midnight Sapphire",
+    position: [15657.276343924817, 22200.753625477944],
     type: ObjectiveType.LOCATE,
     types: [MarkerType.TASK, MarkerType.LOCATE, MarkerType.HANDSHAKE, MarkerType.MIDNIGHTSAPPHIRE],
     location: MidnightSapphire

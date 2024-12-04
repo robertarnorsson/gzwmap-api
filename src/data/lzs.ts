@@ -95,7 +95,7 @@ export const CHARLIE3: lz = {
 export const FOXTROT1: lz = {
   id: "LZ-FAAIOP",
   name: "FOXTROT 1",
-  position: [14902.045283641288,22064.538811683913],
+  position: [14915.357539816763, 22056.783692581266],
   discoverable: false,
   types: [MarkerType.LZ, MarkerType.HUNTERSPARADISE],
   location: HuntersParadise,
@@ -104,7 +104,7 @@ export const FOXTROT1: lz = {
 export const FOXTROT2: lz = {
   id: "LZ-540X6V",
   name: "FOXTROT 2",
-  position: [13284.744349319495, 22240.620020044644],
+  position: [13405.421189845008, 22240.02580509617],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.HUNTERSPARADISE],
   location: HuntersParadise,
@@ -113,7 +113,7 @@ export const FOXTROT2: lz = {
 export const FOXTROT3: lz = {
   id: "LZ-VL42YA",
   name: "FOXTROT 3",
-  position: [13870.829500613861, 20642.248046024877],
+  position: [13883.842820853142, 20636.576931631713],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.HUNTERSPARADISE],
   location: HuntersParadise,
@@ -122,7 +122,7 @@ export const FOXTROT3: lz = {
 export const INDIA1: lz = {
   id: "LZ-UYB9DS",
   name: "INDIA 1",
-  position: [23292.280409109848, 16934.4634142024],
+  position: [23241.8315675693, 16956.34540713739],
   discoverable: false,
   types: [MarkerType.LZ, MarkerType.BANPA],
   location: BanPa,
@@ -140,7 +140,7 @@ export const INDIA2: lz = {
 export const INDIA3: lz = {
   id: "LZ-9U3A16",
   name: "INDIA 3",
-  position: [22355.706447301727, 16960.95887447208],
+  position: [22341.863109181228, 16830.082302850795],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.BANPA],
   location: BanPa,
@@ -158,7 +158,7 @@ export const LIMA1: lz = {
 export const LIMA2: lz = {
   id: "LZ-JZ4SX2",
   name: "LIMA 2",
-  position: [12153.76015039633, 12787.295535843863],
+  position: [12024.639937397538, 12733.163106699225],
   discoverable: false,
   types: [MarkerType.LZ, MarkerType.YBL1],
   location: YBL1,
@@ -167,7 +167,7 @@ export const LIMA2: lz = {
 export const LIMA3: lz = {
   id: "LZ-P2Q8RV",
   name: "LIMA 3",
-  position: [9862.802414447953, 13219.700746379154],
+  position: [9806.529078497286, 13172.67054006697],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.YBL1],
   location: YBL1,
@@ -176,7 +176,7 @@ export const LIMA3: lz = {
 export const MIKE1: lz = {
   id: "LZ-TVS105",
   name: "MIKE 1",
-  position: [13070.35783252685, 15074.9596685017],
+  position: [13070.505923503206, 15036.13849193258],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.FORTNARITH],
   location: FortNarith,
@@ -185,7 +185,7 @@ export const MIKE1: lz = {
 export const MIKE2: lz = {
   id: "LZ-0UDVV3",
   name: "MIKE 2",
-  position: [13751.993333028217, 13873.60483822732],
+  position: [13710.993319356385, 13949.452285505175],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.FORTNARITH],
   location: FortNarith,
@@ -194,7 +194,7 @@ export const MIKE2: lz = {
 export const MIKE3: lz = {
   id: "LZ-5BGTEO",
   name: "MIKE 3",
-  position: [13222.604546203358, 12564.649557598537],
+  position: [13135.497872360957, 12685.744466993372],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.YBL1],
   location: YBL1,
@@ -221,7 +221,7 @@ export const ECHO2: lz = {
 export const ECHO3: lz = {
   id: "LZ-8OL89S",
   name: "ECHO 3",
-  position: [10978.185550721006, 17419.249176044093],
+  position: [10779.417526988516, 18080.676478853235],
   discoverable: false,
   types: [MarkerType.LZ, MarkerType.SAWMILL],
   location: Sawmill,
@@ -239,7 +239,7 @@ export const KILO1: lz = {
 export const KILO2: lz = {
   id: "LZ-PYGB22",
   name: "KILO 2",
-  position: [23070.972291004495,12308.131493655163],
+  position: [23367.610180274194, 12460.144721198982],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.BLUELAGOON],
   location: BlueLagoon,
@@ -248,7 +248,7 @@ export const KILO2: lz = {
 export const KILO3: lz = {
   id: "LZ-RGO7Q7",
   name: "KILO 3",
-  position: [23062.693711837863, 13205.558185429007],
+  position: [23025.609636382625, 13265.137611685726],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.BLUELAGOON],
   location: BlueLagoon,
@@ -257,7 +257,7 @@ export const KILO3: lz = {
 export const NOVEMBER1: lz = {
   id: "LZ-M1TQ03",
   name: "NOVEMBER 1",
-  position: [19123.84036444363, 13586.37504207006],
+  position: [19091.71660626894, 13693.760553206865],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.TIGERBAY],
   location: TigerBay,
@@ -284,7 +284,7 @@ export const JULIET1: lz = {
 export const JULIET2: lz = {
   id: "LZ-GBFIA4",
   name: "JULIET 2",
-  position: [20945.209997484264,13986.83238920378],
+  position: [20929.8761990855, 13989.614433507486],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.TIGERBAY],
   location: TigerBay,
@@ -293,7 +293,7 @@ export const JULIET2: lz = {
 export const JULIET3: lz = {
   id: "LZ-J1365Q",
   name: "JULIET 3",
-  position: [22195.25300435851,13640.402185786621],
+  position: [22196.48234501346, 13673.056678730502],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.TIGERBAY],
   location: TigerBay,
@@ -329,7 +329,7 @@ export const DELTA2: lz = {
 export const DELTA3: lz = {
   id: "LZ-LQXO3O",
   name: "DELTA 3",
-  position: [10056.136766239302,14830.683785385934],
+  position: [10078.225637999114, 14809.025967840817],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.FORTNARITH],
   location: FortNarith,
@@ -338,7 +338,7 @@ export const DELTA3: lz = {
 export const DELTA4: lz = {
   id: "LZ-CY5PSD",
   name: "DELTA 4",
-  position: [9776.52631003743, 15782.658761037384],
+  position: [9695.096721332888, 15708.988904745784],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.FORTNARITH],
   location: FortNarith,
@@ -374,7 +374,7 @@ export const HOTEL3: lz = {
 export const PAPA1: lz = {
   id: "LZ-ZYZ7U4",
   name: "PAPA 1",
-  position: [19477.29990205293, 21519.751943378775],
+  position: [19508.897332963403, 21511.47865094574],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.PHALANGAIRFIELD],
   location: PhaLangAirfield,
@@ -383,7 +383,7 @@ export const PAPA1: lz = {
 export const PAPA2: lz = {
   id: "LZ-WVRXP5",
   name: "PAPA 2",
-  position: [18586.820437335795, 21057.83850999754],
+  position: [18593.15235543467, 21140.21682292727],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.PHALANGAIRFIELD],
   location: PhaLangAirfield,
@@ -392,7 +392,7 @@ export const PAPA2: lz = {
 export const GOLF1: lz = {
   id: "LZ-JEJT81",
   name: "GOLF 1",
-  position: [17094.52264089592, 20317.60640985522],
+  position: [17237.0085269208, 20398.940502593257],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.PHALANGAIRFIELD],
   location: PhaLangAirfield,
@@ -401,7 +401,7 @@ export const GOLF1: lz = {
 export const GOLF2: lz = {
   id: "LZ-81H96H",
   name: "GOLF 2",
-  position: [19079.193631948197,19755.691359744593],
+  position: [19279.460802935486, 19482.90453554364],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.PHALANGAIRFIELD],
   location: PhaLangAirfield,
@@ -419,10 +419,26 @@ export const GOLF3: lz = {
 export const OSCAR1: lz = {
   id: "LZ-OJLXF2",
   name: "OSCAR 1",
-  position: [21266.73949609648, 18730.529895911197],
+  position: [21282.07005264884, 18740.18008515966],
   discoverable: true,
   types: [MarkerType.LZ, MarkerType.PHALANGAIRFIELD],
   location: PhaLangAirfield,
+};
+
+export const QUEBEC1: lz = {
+  id: "LZ-JTM42D",
+  name: "QUEBEC 1",
+  position: [14248.538065113746, 19900.769450628068],
+  discoverable: true,
+  types: [MarkerType.LZ],
+};
+
+export const QUEBEC2: lz = {
+  id: "LZ-CYO0SM",
+  name: "QUEBEC 2",
+  position: [13209.016090156681, 19045.327579879362],
+  discoverable: true,
+  types: [MarkerType.LZ],
 };
 
 export const LZs: lz[] = [
@@ -472,4 +488,6 @@ export const LZs: lz[] = [
   GOLF2,
   GOLF3,
   OSCAR1,
+  QUEBEC1,
+  QUEBEC2,
 ];

@@ -17,7 +17,7 @@ export type faction = Marker & {
 
 export type lz = Marker & {
   discoverable: boolean;
-  location: location;
+  location?: location;
   faction?: faction;
 };
 
@@ -77,6 +77,7 @@ export type task = BaseMarker & {
   faction?: faction,
   difficulty?: difficulty,
   notMultiLocation?: boolean,
+  isHidden?: boolean,
 };
 
 export type difficulty = {

@@ -33,7 +33,7 @@ const ASingleDrop_Objective3: objective = {
     id: "O-I2JPC5",
     name: "Third Tanker Truck",
     description: "White truck with gas tank trailer. Interact with the panel that's open on the side of the tank.",
-    position: [18754.927298622453, 20085.16929079341],
+    position: [19803.738296219275, 20859.076854872925],
     type: ObjectiveType.MARK,
     image: {
     large: "/assets/objectives/a-single-drop-third-tanker.webp",
