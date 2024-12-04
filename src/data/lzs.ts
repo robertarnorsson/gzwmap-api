@@ -425,6 +425,22 @@ export const OSCAR1: lz = {
   location: PhaLangAirfield,
 };
 
+export const QUEBEC1: lz = {
+  id: "LZ-JTM42D",
+  name: "QUEBEC 1",
+  position: [14248.538065113746, 19900.769450628068],
+  discoverable: true,
+  types: [MarkerType.LZ],
+};
+
+export const QUEBEC2: lz = {
+  id: "LZ-CYO0SM",
+  name: "QUEBEC 2",
+  position: [13209.016090156681, 19045.327579879362],
+  discoverable: true,
+  types: [MarkerType.LZ],
+};
+
 export const LZs: lz[] = [
   ALPHA1,
   ALPHA2,
@@ -472,4 +488,6 @@ export const LZs: lz[] = [
   GOLF2,
   GOLF3,
   OSCAR1,
+  QUEBEC1,
+  QUEBEC2,
 ];
