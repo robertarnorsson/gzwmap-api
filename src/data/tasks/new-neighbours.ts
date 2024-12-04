@@ -26,7 +26,7 @@ const NewNeighbours_Objective3: objective = {
     id: "O-3P3JQ5",
     name: "LLA Attack Plans",
     description: "Investigate what is hidden in the jungle West of YBL1 and bring back the LLA Attack Plans",
-    position: [9839.140036372512, 13951.291325814962],
+    position: [9829.394842662783, 13939.931162613788],
     type: ObjectiveType.COLLECT,
     types: [MarkerType.TASK, MarkerType.COLLECT, MarkerType.HANDSHAKE, MarkerType.YBL1],
     location: YBL1

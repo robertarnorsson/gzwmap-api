@@ -93,7 +93,8 @@ import {
     TBQr,
     TBUNCon,
     TBUNLab,
-    TBUNMed
+    TBUNMed,
+    TBCemStr
 } from "./keys/tiger-bay";
 
 import {
@@ -180,6 +181,7 @@ export const Keys: key[] = [
     TBUNCon,
     TBUNMed,
     TBLookout,
+    TBCemStr,
     MSLusia,
     MSKate,
     MSAnnaJana,

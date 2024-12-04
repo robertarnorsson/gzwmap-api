@@ -6,14 +6,14 @@ const UpTheStream_Objective1: objective = {
     id: "O-NGFH7Y",
     name: "Source of the Contamination",
     description: "Check the source of the contamination",
-    position: [9021.435369840156, 16910.66620518539],
+    position: [9062.996745288096, 16974.317161971056],
     type: ObjectiveType.LOCATE,
     types: [MarkerType.TASK, MarkerType.LOCATE, MarkerType.LABRAT, MarkerType.SAWMILL],
     location: Sawmill
 }
 
 export const UpTheStream: task = {
-    id: "T-98NB07",
+    id: "T-H318MP",
     name: "Up The Stream",
     briefing: "No briefing yet.",
     debriefing: "No debriefing yet.",

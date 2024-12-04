@@ -2,7 +2,7 @@ import { MarkerType, ObjectiveType, objective, task } from "../../types";
 import { Gunny } from "../vendors";
 import { BanPa } from "../locations";
 
-const NoWayUp_Objective1_LRI: objective = {
+const NoWayUp_Objective1: objective = {
   id: "O-AH1GH9",
   name: "PMC Squad",
   description: "Find out what happened to the PMC squad",
@@ -19,7 +19,7 @@ export const NoWayUp: task = {
   briefing: "No briefing yet.",
   debriefing: "No debriefing yet.",
   objectives: [
-    NoWayUp_Objective1_LRI,
+    NoWayUp_Objective1,
   ],
   vendor: Gunny,
   level: 0

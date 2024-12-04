@@ -5,8 +5,8 @@ import { MidnightSapphire } from "../locations";
 const LastFarewellPartTwo_Objective1: objective = {
     id: "O-BSPRD9",
     name: "Body",
-    description: "Find the body laying in the grass near the flag",
-    position: [15979.076629630958, 21996.82500708069],
+    description: "Find the body laying in the grass Northwest of Midnight Sapphire",
+    position: [15646.112482183878, 22201.53421690514],
     type: ObjectiveType.LOCATE,
     types: [MarkerType.TASK, MarkerType.LOCATE, MarkerType.GUNNY, MarkerType.MIDNIGHTSAPPHIRE],
     location: MidnightSapphire

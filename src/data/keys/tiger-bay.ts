@@ -104,3 +104,16 @@ export const TBLookout: key = {
   location: TigerBay,
   position: [21814.330084439844, 14556.066274338593]
 }
+
+export const TBCemStr: key = {
+  id: "K-CR99VJ",
+  name: "Cement Factory Storage Key",
+  shortName: "TBCemStr",
+  description: "A key to a cement factory storage room in Tiger Bay.",
+  size: [1, 1],
+  image: KeyTypes.SKINNYKEY,
+  types: [MarkerType.KEY, MarkerType.TIGERBAY, MarkerType.QUESTKEY],
+  questKey: true,
+  location: TigerBay,
+  position: [21221.216688533823, 15067.727755976379]
+}
